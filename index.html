@@ -6,81 +6,118 @@
   <title>Oak and Iron Consulting</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f3efea;
       margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f3efea;
       color: #1e3d32;
     }
     header {
       background-color: #1e3d32;
-      color: #fff;
-      padding: 2rem;
+      color: white;
+      padding: 3rem 2rem;
       text-align: center;
+    }
+    header img {
+      max-width: 200px;
+      margin-bottom: 1rem;
     }
     header h1 {
       margin: 0;
-      font-size: 2.5rem;
+      font-size: 3rem;
     }
     header p {
       font-size: 1.2rem;
-      color: #cfcfcf;
+      margin-top: 0.5rem;
+      color: #ccc;
     }
-    section {
-      padding: 2rem;
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #434343;
+    }
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #5b5b5b;
+    }
+    .section {
+      padding: 4rem 2rem;
       max-width: 900px;
       margin: auto;
     }
-    h2 {
+    .section h2 {
       border-bottom: 2px solid #1e3d32;
       padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
     }
     .cta-button {
       display: inline-block;
-      margin-top: 1rem;
       padding: 0.75rem 1.5rem;
-      background-color: #434343;
-      color: #fff;
+      background-color: #1e3d32;
+      color: white;
       text-decoration: none;
       border-radius: 5px;
+      margin-top: 1rem;
     }
     footer {
-      text-align: center;
       background-color: #1e3d32;
-      color: #fff;
-      padding: 1rem;
-      margin-top: 2rem;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 3rem;
+    }
+    ul {
+      padding-left: 1.5rem;
     }
   </style>
 </head>
 <body>
   <header>
+    <img src="Oak%20&Iron.jpg" alt="Oak and Iron Consulting Logo" />
     <h1>Oak and Iron Consulting</h1>
-    <p>Strong Funnels. Reliable Growth.</p>
+    <p>Lead Generation Built to Last</p>
   </header>
 
-  <section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#results">Results</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="section">
     <h2>About Us</h2>
-    <p>Oak and Iron Consulting helps real estate agents, local tutors, and service professionals generate consistent leads through powerful, targeted digital funnels. Our goal is to deliver high-quality leads without the hassle of traditional marketing.</p>
+    <p>At Oak and Iron Consulting, we build strategic lead generation systems tailored to small businesses in real estate, education, and local services. We focus on creating consistent, qualified lead flow using high-converting funnels and ad campaigns that perform.</p>
   </section>
 
-  <section>
-    <h2>Our Services</h2>
+  <section id="services" class="section">
+    <h2>What We Do</h2>
     <ul>
-      <li>Lead Generation Funnels for Real Estate Agents</li>
-      <li>Ad Campaign Setup for Tutors and Coaches</li>
-      <li>Custom Lead Forms and Client Tracking Sheets</li>
-      <li>Strategy Calls and Conversion Optimization</li>
+      <li>Done-for-you Facebook & Instagram Lead Ads</li>
+      <li>Custom landing pages and funnel design</li>
+      <li>Lead capture & CRM setup</li>
+      <li>Consulting and performance audits</li>
     </ul>
+    <a href="#contact" class="cta-button">Book a Free Strategy Call</a>
   </section>
 
-  <section>
-    <h2>Book a Free Strategy Call</h2>
-    <p>Want to see how we can help your business grow? Schedule a free 10-minute strategy call today.</p>
-    <a href="#" class="cta-button">Schedule Call</a>
+  <section id="results" class="section">
+    <h2>Client Wins</h2>
+    <p>We’ve helped new real estate agents secure 15+ listing leads in their first month, tutors book out their calendar for entire semesters, and fitness coaches grow from zero to full-time clients in under 60 days. Our systems are built for results, not guesswork.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Let’s Connect</h2>
+    <p>Ready to generate serious leads? Reach out to schedule your free consultation.</p>
+    <a href="mailto:oakandironconsulting@gmail.com" class="cta-button">Email Us</a>
   </section>
 
   <footer>
-    <p>&copy; 2025 Oak and Iron Consulting. All rights reserved.</p>
+    <p>&copy; 2025 Oak and Iron Consulting. Built with strength and strategy.</p>
   </footer>
 </body>
 </html>
