@@ -8,8 +8,8 @@
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
-      background-color: #f3efea;
-      color: #1e3d32;
+      background-color: #ffffff;
+      color: #1e1e1e;
     }
     header {
       background-color: #1e3d32;
@@ -18,60 +18,78 @@
       text-align: center;
     }
     header img {
-      max-width: 200px;
+      max-width: 180px;
       margin-bottom: 1rem;
     }
     header h1 {
       margin: 0;
-      font-size: 3rem;
+      font-size: 2.8rem;
     }
     header p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       margin-top: 0.5rem;
       color: #ccc;
     }
     nav {
       display: flex;
       justify-content: center;
-      background: #434343;
+      background: #2e2e2e;
+      flex-wrap: wrap;
     }
     nav a {
       color: white;
       padding: 1rem;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
     }
     nav a:hover {
-      background-color: #5b5b5b;
+      background-color: #444;
     }
     .section {
       padding: 4rem 2rem;
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
     }
     .section h2 {
-      border-bottom: 2px solid #1e3d32;
-      padding-bottom: 0.5rem;
+      color: #1e3d32;
+      font-size: 2rem;
       margin-bottom: 1rem;
+    }
+    .highlight {
+      background-color: #f2f2f2;
+      padding: 2rem;
+      border-left: 5px solid #1e3d32;
+      margin-bottom: 2rem;
     }
     .cta-button {
       display: inline-block;
-      padding: 0.75rem 1.5rem;
+      padding: 0.8rem 1.6rem;
       background-color: #1e3d32;
       color: white;
       text-decoration: none;
-      border-radius: 5px;
-      margin-top: 1rem;
+      border-radius: 4px;
+      font-weight: bold;
+      margin-top: 1.5rem;
+    }
+    .cta-button:hover {
+      background-color: #305c4a;
     }
     footer {
       background-color: #1e3d32;
       color: white;
       text-align: center;
-      padding: 2rem;
-      margin-top: 3rem;
+      padding: 2rem 1rem;
     }
     ul {
       padding-left: 1.5rem;
+      line-height: 1.8;
+    }
+    .testimonial, .feature-box, .faq-item {
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 6px;
     }
   </style>
 </head>
@@ -79,45 +97,97 @@
   <header>
     <img src="Oak%20&Iron.jpg" alt="Oak and Iron Consulting Logo" />
     <h1>Oak and Iron Consulting</h1>
-    <p>Lead Generation Built to Last</p>
+    <p>Modern B2B Lead Generation That Drives Results</p>
   </header>
 
   <nav>
     <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#results">Results</a>
+    <a href="#solutions">Solutions</a>
+    <a href="#results">Case Studies</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#features">Why Us</a>
+    <a href="#faq">FAQs</a>
     <a href="#contact">Contact</a>
   </nav>
 
   <section id="about" class="section">
-    <h2>About Us</h2>
-    <p>At Oak and Iron Consulting, we build strategic lead generation systems tailored to small businesses in real estate, education, and local services. We focus on creating consistent, qualified lead flow using high-converting funnels and ad campaigns that perform.</p>
+    <div class="highlight">
+      <h2>We Build Lead Engines for High-Growth Businesses</h2>
+      <p>Oak and Iron Consulting empowers B2B teams to consistently fill their sales pipeline with high-quality leads using proven outbound systems, landing pages, and ad strategies. From local firms to scaling agencies — we design what converts.</p>
+    </div>
   </section>
 
-  <section id="services" class="section">
-    <h2>What We Do</h2>
+  <section id="solutions" class="section">
+    <h2>Solutions That Work</h2>
     <ul>
-      <li>Done-for-you Facebook & Instagram Lead Ads</li>
-      <li>Custom landing pages and funnel design</li>
-      <li>Lead capture & CRM setup</li>
-      <li>Consulting and performance audits</li>
+      <li>End-to-End B2B Funnel Design</li>
+      <li>LinkedIn & Paid Ad Lead Systems</li>
+      <li>Landing Pages with Psychological Hooks</li>
+      <li>Email Nurture Campaigns and Automation</li>
+      <li>CRM Strategy + Reporting Dashboards</li>
     </ul>
-    <a href="#contact" class="cta-button">Book a Free Strategy Call</a>
+    <a href="#contact" class="cta-button">Get Your Free Lead Audit</a>
   </section>
 
   <section id="results" class="section">
-    <h2>Client Wins</h2>
-    <p>We’ve helped new real estate agents secure 15+ listing leads in their first month, tutors book out their calendar for entire semesters, and fitness coaches grow from zero to full-time clients in under 60 days. Our systems are built for results, not guesswork.</p>
+    <h2>Case Studies & Wins</h2>
+    <p><strong>Real Estate SaaS:</strong> Generated 98 qualified leads in 30 days using a micro-targeted FB + LinkedIn hybrid campaign.</p>
+    <p><strong>Education Agency:</strong> Automated booking system increased call volume by 230% within two weeks.</p>
+    <p><strong>Fitness Pro B2B:</strong> Funnel redesign led to 4x conversions in month one.</p>
+  </section>
+
+  <section id="testimonials" class="section">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial">
+      <p>"Oak and Iron helped us restructure our ad campaigns and within two weeks, our leads doubled. Their team is sharp, fast, and strategic."</p>
+      <strong>- Director of Growth, FitLaunch</strong>
+    </div>
+    <div class="testimonial">
+      <p>"They didn’t just deliver leads — they built a whole system that continues to bring in business today. Highly recommend."</p>
+      <strong>- CEO, TutorWorks</strong>
+    </div>
+  </section>
+
+  <section id="features" class="section">
+    <h2>Why Choose Oak and Iron?</h2>
+    <div class="feature-box">
+      <h3>Data-Driven Execution</h3>
+      <p>We measure every click, call, and conversion. No guesswork. Just actionable analytics that move your pipeline.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Tailored Campaigns</h3>
+      <p>No one-size-fits-all templates. We custom-build every campaign around your brand, audience, and business goals.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Scalable Systems</h3>
+      <p>From your first lead to your 500th, we design with scalability in mind. Our funnels grow with your business.</p>
+    </div>
+  </section>
+
+  <section id="faq" class="section">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h4>How quickly can I expect results?</h4>
+      <p>Many clients see results within the first 2–3 weeks, depending on the niche, offer, and ad budget.</p>
+    </div>
+    <div class="faq-item">
+      <h4>What industries do you specialize in?</h4>
+      <p>We focus on real estate, education, fitness, and high-ticket service businesses, but our frameworks apply to many B2B verticals.</p>
+    </div>
+    <div class="faq-item">
+      <h4>Do you offer ongoing support?</h4>
+      <p>Yes! We provide ongoing funnel optimization, ad management, and conversion tracking services.</p>
+    </div>
   </section>
 
   <section id="contact" class="section">
-    <h2>Let’s Connect</h2>
-    <p>Ready to generate serious leads? Reach out to schedule your free consultation.</p>
-    <a href="mailto:oakandironconsulting@gmail.com" class="cta-button">Email Us</a>
+    <h2>Let’s Grow Together</h2>
+    <p>Get a free growth strategy built for your exact audience. We'll map your next 30 days of lead generation — no strings attached.</p>
+    <a href="mailto:oakandironconsulting@gmail.com" class="cta-button">Book a Strategy Call</a>
   </section>
 
   <footer>
-    <p>&copy; 2025 Oak and Iron Consulting. Built with strength and strategy.</p>
+    <p>&copy; 2025 Oak and Iron Consulting. Brand. Convert. Scale.</p>
   </footer>
 </body>
 </html>
